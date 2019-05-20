@@ -1,1 +1,1 @@
-This is my attempt at making a copy of the homepage of Google.
+This is my attempt at making a copy of the homepage of Google. From The Odin Project https://www.theodinproject.com/courses/web-development-101/lessons/html-css?ref=lnav.
