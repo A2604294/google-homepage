@@ -1,3 +1,133 @@
-#logo {
+* {
+    font-family: arial, sans-serif;
+}
+
+a {
+    color: #la0dab;
+    text-decoration: none;
+}
+
+span {
+    margin-right: 15px;
     vertical-align: middle;
+}
+
+#top-items {
+    padding-top: 10px;
+    font-size: 16px;
+    color: #5F6368;
+}
+
+.right {
+    position: absolute;
+    vertical-align: middle;
+    right: 10px;
+}
+
+.left {
+    position: absolute;
+    vertical-align: middle;
+    left: 20px;
+}
+
+#apps {
+    height: 20px;
+    width: 20px;
+    vertical-align: middle;
+}
+
+#sign-in {
+    background-color: #4387fd;
+    border: 1px solid #4387fd;
+    border-radius: 3px;
+
+    font-weight: bold;
+    color: white;
+
+    padding: 9px 18px;
+    font-size: 16px;
+} 
+
+#logo {
+    position: relative;
+    height: 92px;
+    width: 272px;
+    margin: 109px auto;
+}
+
+#input-box {
+    display: block;
+    position: relative;
+    width: 554px;
+    height: 44px;
+    margin: 0 auto;
+
+    border: 1px solid rgb(223,225,229);
+    border-radius: 24px;
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+
+    font-size: 16px;
+    padding-left: 20px;
+    cursor: text;
+}
+
+#searchbar {
+    margin-top: 160px;
+    height: 34px;
+}
+
+#microphone {
+    background: url('./images/mic.png') 0 0 no-repeat;
+    vertical-align: middle;
+    height: 24px;
+    width: 24px;
+    background-size: 24px;
+    cursor: pointer;
+
+    position: absolute;
+    margin: 0 50%;
+    left: 246px;
+    top: 390px;
+}
+
+.center {
+    text-align: center;
+}
+
+.search-buttons {
+    display: block;
+    width: 300px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.search-button {
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 5px;
+
+    font-size: 14px;
+    color: #5F6368;
+    
+    margin: 11px 4px;
+    padding: 10px 16px;
+}
+
+footer {
+    display: inline-block;
+    color: #5F6368;
+    width: 100%;
+    height: 3.5em;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.bottom {
+    vertical-align: middle;
+    bottom: 1em;
+    background-color: #f2f2f2;
 }

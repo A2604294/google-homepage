@@ -3,9 +3,58 @@
     <head>
         <title>Google Homepage Clone</title>
         <meta charset="UTF-8">
-        <link rel="stylesheet" type="text/css" src="style.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
     </head>
+
     <body>
-        <img id="logo" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google logo" width="272">
+        <header id="top-items">
+            
+            <div class="left">
+                <span>About</span>
+                <span>Store</span>
+            </div>
+        
+            <div class="right">
+                <span>Gmail</span>
+                <span>Images</span>
+                <span><img id="apps" src="images/apps.png"></span>
+                <span><input type="button" id="sign-in" value="Sign in"></span>
+            </div>       
+
+        </header>
+      
+
+        <div id="logo"> 
+            <img id="logo" src="images/logo.png" alt="Google logo">
+        </div>
+       
+        <div id="searchbar">
+            <input type="text" id="input-box">
+            <div id="microphone"></div>
+        </div>
+        
+        <div class="search-buttons">
+            <input type="submit" value="Google Search" class="search-button">
+            <input type="submit" value="I'm Feeling Lucky" class="search-button">
+        </div>
+
+        <div class="center">
+            Google offered in: <a href=#>Français</a>
+        </div>
+
+        <footer>
+            <div class="left bottom">
+                <span>Advertising</span>
+                <span>Business</span>
+            </div>
+            
+        
+            <div class="right bottom">
+                <span>Privacy</span>
+                <span>Terms</span>
+                <span>Settings</span>
+
+            </div>
+        </footer>
     </body>
 </html>
